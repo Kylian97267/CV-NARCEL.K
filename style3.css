@@ -1,0 +1,92 @@
+h1 {/*paramètre H1*/
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: azure;
+  font-size: xx-large;
+  border-style: ridge;
+  text-align: center;
+}
+p {
+  font-size: large;
+  color: rgb(255, 255, 255);/*couleur*/
+  text-align: justify;
+}
+em {
+  font-size: large;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);/*fond transparent*/
+}
+body {/*fond d'écran*/
+  background: url(image/fondcv2.png) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h4 {
+  font-size: x-large;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+}
+li {
+  font-size: medium;
+  color: aliceblue;
+}
+.imagedebut {/*paramètre image en début de page*/
+  border-radius: 15px 15px;
+  display: block;
+  margin: 0px auto;
+  height:200px;
+}
+td {
+  color: rgb(255, 255, 255);/*Couleur*/
+  background: rgba(0, 0, 0, 0.5);
+  font-size: x-large;
+}
+th {
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);/*fond transparent*/
+  font-size: x-large;
+}
+table {
+  color: rgb(255, 255, 255);
+}
+h3 {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-size: x-large;
+}
+table {/*Tableau*/
+  display: block;
+  margin: 0px auto;
+  color: black;
+}
+.home {/*paramètre bouton home*/
+  position: absolute;
+  top: 10%;
+  left: 2%;
+  height:100px;
+}
+span{background: rgba(0, 0, 0, 0.5);}
+.clg{height:19%;
+  border-radius: 15px 15px;
+  position:absolute;
+  right:1%;
+  top:40%;
+}
+.textclg{text-transform: uppercase;
+  color: aliceblue;
+  font-size: large;
+  position:absolute;
+  right:4%;
+  top:54%;
+}
+.dls{height:19%;
+  border-radius: 15px 15px;
+position: absolute;
+right:1%;
+top:64%}
+.textdls{text-transform: uppercase;
+  color: aliceblue;
+  font-size: large;
+  position:absolute;
+right:8%;
+top:80%}

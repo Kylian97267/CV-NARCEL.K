@@ -1,0 +1,109 @@
+
+
+h1 {
+  text-transform: uppercase;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: azure;
+  font-size: xx-large;
+  border-style: ridge;
+}
+
+body {
+  background: url(image/fondcv2.png) no-repeat; /*fond écran*/
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  text-transform: uppercase;/*Changer caractère text*/
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: large;
+  color: rgb(255, 255, 255);
+
+}
+
+ol {
+  font-size: x-large;/*Changer list text*/
+  color: rgb(255, 255, 255);
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  list-style-type: decimal;
+  display: flex;
+  justify-content: space-around;
+}
+
+.profiltext {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: x-large;
+  text-transform: uppercase;
+  background-clip: content-box
+;
+}
+
+h1 {
+  text-align: center;/*Titre au centre*/
+}
+.etude {/*changer taille et coin image*/
+  border-radius: 15px 15px;
+  height: 200px;
+}
+.stage {/*changer taille et coin image*/
+  border-radius: 15px 15px;
+  height: 200px;
+}
+.formation {/*changer taille et coin image*/
+  border-radius: 15px 15px;
+  height: 200px;
+}
+h2 {
+  text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: azure;
+}
+.caption {
+  background: rgba(0, 0, 0, 0.5);/*arrière plan transparent*/
+  text-transform: uppercase;
+  font-size: x-large;
+}
+ul {
+  color: aliceblue;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: x-large;
+  text-transform: uppercase;
+}
+li {
+  list-style-type: none;
+}
+.profil {/*paramètre photo de profil*/
+  border-radius: 15px 15px;
+  display: block;
+  margin: 0px auto;
+  height:200px;
+}
+.home {/*paramètre bouton home*/
+  position: absolute;
+  top: 10%;
+  right: 2%;
+  height:100px;
+}
+em{ font-size: x-large;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.5);/*fond transparent*/}
+  .contact{ background: rgba(0, 0, 0, 0.5);
+  font-size: xx-large;
+  text-decoration: underline;}
+  span{ color: rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.5);/*fond transparent*/}
+    hr{width: 250px;
+      color: aliceblue;
+    height:5px;
+    background-color: aliceblue ;}
+    .qu{ background: rgba(0, 0, 0, 0.7);/*arrière plan transparent*/
+      text-transform: uppercase;
+      font-size: x-large;
+    }
